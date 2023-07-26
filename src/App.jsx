@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navigation from './customer/components/Navigation/Navigation'
 import HomePage from './customer/pages/Homepage/Homepage'
+import Product from './customer/components/product/Product'
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
       <div className="">
         <Navigation/>
         <div>
-          <HomePage/>
+          {/*<HomePage/>*/}
+          <Product/>
         </div>
       </div>
       
