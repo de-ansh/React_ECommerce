@@ -5,12 +5,12 @@ import './App.css'
 import Navigation from './customer/components/Navigation/Navigation'
 import HomePage from './customer/pages/Homepage/Homepage'
 import Product from './customer/components/product/Product'
-
+import Footer from './customer/components/Footer/Footer'
 function App() {
   
 
   return (
-    <>
+    
      
       <div className="">
         <Navigation/>
@@ -18,9 +18,10 @@ function App() {
           {/*<HomePage/>*/}
           <Product/>
         </div>
+        <Footer/>
       </div>
       
-    </>
+    
   )
 }
 
