@@ -6,6 +6,7 @@ import Navigation from './customer/components/Navigation/Navigation'
 import HomePage from './customer/pages/Homepage/Homepage'
 import Product from './customer/components/product/Product'
 import Footer from './customer/components/Footer/Footer'
+import ProductDetails from './customer/components/productDetails/ProductDetails'
 function App() {
   
 
@@ -16,7 +17,8 @@ function App() {
         <Navigation/>
         <div>
           {/*<HomePage/>*/}
-          <Product/>
+           {/*<Product/>*/}
+          <ProductDetails/>
         </div>
         <Footer/>
       </div>
